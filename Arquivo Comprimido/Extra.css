@@ -1,0 +1,178 @@
+header{
+    background-color:  #13a085;
+    width: 100%;
+    margin: 0;
+    padding: 1% 0 1% 0;
+}
+
+header h1{
+    color: white;
+    font-weight: bold;
+}
+
+header ul{
+    background-color: #19bc9b;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+header a{
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    padding: 0;
+}
+
+nav ul li, nav ul a{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.cinza {
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+main{
+    text-align: center;
+}
+
+.cinza h2{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cinza a{
+    color: #19bc9b;
+    text-decoration: underline;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.boxes h3{
+    font-weight: bold
+}
+
+.box{
+    width: 250px;
+}
+
+.box a{
+    background-color: #13a085;
+    color: #fff;
+    padding: 15px 20px;
+    
+}
+
+.box p{
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.card, .card img{
+    width: 250px;
+}
+
+.card p{
+    margin-bottom: 50px;
+}
+
+.card a{
+    background-color: #13a085;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.card h4{
+    font-weight: bold
+}
+
+.card img{
+    margin-bottom: 35px;
+}
+
+.cinza ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0;
+}
+
+.cinza i{
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.cinza ul li{
+    background-color: #13a085;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meio h2{
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #13a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer ul li, footer ul li a{
+    color: #fff;
+}
+
+footer .icones{
+    font-size: 2rem;
+    gap: 8px;
+    margin-top: 50px;
+}
+
+footer .icones li{
+    padding: 5px;
+    background-color: #19bc9b;
+}
