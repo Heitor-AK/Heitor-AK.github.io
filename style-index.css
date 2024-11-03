@@ -74,6 +74,14 @@ article{
     padding: 10px 15px;
 }
 
+.menu .outros .oi .primeiro{
+    margin-bottom: 20px;
+}
+
+.outros .oi .res{
+    margin-left: 90px;
+}
+
 footer{
     margin: 0;
     padding: 0;
