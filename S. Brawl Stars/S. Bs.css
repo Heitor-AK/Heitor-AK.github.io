@@ -1,3 +1,195 @@
-body p{
-    font-size: 50px;
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    background-color: rgb(248, 167, 5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.topo p {
+    background-color: rgb(248, 167, 5);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+}
+
+header {
+    background-image: url(Fundo\ Camp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+
+@media (min-width: 1100px){
+    .topo p {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    footer p {
+        font-size: 2.5em;
+    }
+
+    .categoriasum .menu, .categoriasdois {
+        display: flex;
+        justify-content:space-around;
+    }
+
+    main {
+        height: 950px;
+    }
+}
+
+@media (max-width: 1099px){
+    .topo p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    footer p {
+        font-size: 1.5em;
+    }
+
+    .categoriasum .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categoriasdois {
+        display: none;
+    }
+
+    main {
+        height: 2000px;
+    }
+}
+
+main {
+    background-image: url(Fundo\ Cave\ Azuis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.um img {
+    height: 250px;
+    width: 350px;
+    margin-top: 120px;
+}
+
+.menu li img {
+    height: 250px;
+    width: 350px;
+    margin-top: 120px;
+    margin-bottom: 0;
+    border-radius: 1%;
+}
+
+.topo {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.degrade p {
+    color:  rgb(15, 15, 215);
+    font-size: 3em;
+}
+
+.degrade {
+    background-color:rgb(15, 15, 215);
+}
+
+.categoriasdois {
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categoriasdois article {
+    width: 350px;
+    background-color: rgb(250, 142, 0);
+    margin-top: 0;
+    border-radius: 1%;
+    margin-bottom: 10px;
+}
+
+.categoriasdois article p {
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu li {
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+    border-radius: 1%;
+    margin-bottom: 7px;
+  }
+  
+  .menu li:hover,
+  .menu li:focus {
+    background: rgb(248, 187, 5);
+    transform: scale(1.035);
+    
+  }
+.menu {
+    list-style: none;
+}
+
+footer{
+    background-image: url(Fundo\ Footer.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}    
+
+footer img  {
+    height: 100px;
+    width: 200px;
+}
+
+footer a{
+    margin-top: 30px;
+    padding: 10px 7px;
+    padding-top: 0px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(255, 225, 0);
+    border: 2px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 2.5em;
 }
